@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+*{
+  margin: 0px; 
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+/** CONFIGURACION DE COMPONENTES GENERALES */
+.boton {
+  display: flex;
+  background-color: transparent;
+  padding: 9px 20px; 
+  border-radius: 50px; 
+  border: 2px solid;
+  text-align: center;
+  font-size: 12px;
+}
+
+.contenedor {
+  display: flex;
+  height: 100%;
+  width: 1200px;
+  align-items: center;
+}
+
+.contenedor-menu {
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.5px; 
+}
+
+.menu-item {
+  list-style: none;
+  margin: auto 18px; 
+}
+
+.columna {
+  width: 50%;
+}
+
+/** CONFIGURACION DEL HEADER */
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+  background-color: white;
+  height: 80px;
+  width: 100vw;
+  position: fixed;
+  top: 0; 
+  z-index: 1px;
+}
+
+.contenedor-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-social {
+  margin: auto;
+  width: 14px;
+  height: 14px;
+}
+
+/** COFIGURACION DE LA PRESETACION*/
+.presentacion {
+  display: flex;
+  width: 100vw;
+  height: 340px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.contenedor-presentacion {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fundacion {
+  width: 580px;
+  font-size: 28px;
+  color: #211b25;
+  text-align: center;
+  letter-spacing: -0.4px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+span {
+  display: flex;
+  align-content: center;
+}
+
+.icon{
+  width: 10px;
+  margin-left: 10px;
+}
+
+/** CONFIGURACION DE IMPACTO */
+.impacto {
+  display: flex;
+  justify-content: center;
+  background-color: #211b25; 
+  color: #ffffff;
+}
+
+.contenedor-impacto {
+  display: flex;
+  justify-content: center;
+  padding: 120px 30px 100px 30px;
+  width: 840px;
+}
+
+.columna-impacto {
+  padding-right: 50px;
+  
+}
+
+.impacto-titulo {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.4;
+}

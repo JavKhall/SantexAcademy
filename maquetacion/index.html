@@ -5,47 +5,76 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fundación Tecnologia con Proposito - Clone</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main>
+    <!-- ESPACIO DEL HEADER -->
     <header class="header">
-      <div class="logo">
-        logo
+      <div class="contenedor contenedor-header">
+        <div class="logo">
+          <img src="assets/logo.svg" alt="">
+        </div>
+        <ul class="contenedor-menu">
+          <li class="menu-item"> <a href="">Nosotros</a> </li>
+          <li class="menu-item"> <a href="">Programas</a> </li>
+          <li class="menu-item"> <a href="">Capaticaciones</a> </li>
+          <li class="menu-item"> <a href="">Alianzas</a> </li>
+          <li class="menu-item"> <a href="">Contacto</a> </li>
+          <li class="menu-item"> <button class="boton">Sumate <span> <img src="assets/plus-solid.svg" alt="" class="icon"></span></button> </li>
+          <li class="menu-item"> 
+            <a href=""><img class="logo-social" src="assets/instagram.svg" alt=""></a> 
+          </li>
+          <li class="menu-item"> 
+            <a href=""><img class="logo-social" src="assets/linkedin-in.svg" alt=""> </a> 
+          </li>
+        </ul>
       </div>
-      <ul>
-        <li>Nosotros</li>
-        <li>Programas</li>
-        <li>Capaticaciones</li>
-        <li>Alianzas</li>
-        <li>Contacto</li>
-      </ul>
-      <button>sumate</button>
     </header>
 
+    <!-- ESPACIO DE PRESENTACION -->
     <div class="presentacion">
-      <p>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</p>
-      <button>Contactanos</button>
-      <button>Sumate</button>
+      <div class="contenedor contenedor-presentacion">
+        <h1 class="fundacion">Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
+        <ul class="contenedor-menu">
+          <li class="menu-item">
+            <button class="boton">Contactanos <span><img class="icon
+              " src="assets/arrow-right-long-solid.svg" alt=""></span></button>
+          </li>
+          <li class="menu-item">
+            <button class="boton">Sumate <span><img class="icon" src="assets/plus-solid.svg" alt=""></span></button>
+          </li>
+        </ul>
+      </div>
     </div>
 
+    <!-- ESPACION DE IMPACTO -->
     <div class="impacto">
-      <p>.impacto</p>
-      <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p> 
-      <div class="numeros">
-        <div>
-          <p>58</p>
-          <p>Localidades</p>
+      <div class="contenedor contenedor-impacto">
+        <div class="columna columna-impacto">
+          <p class="impacto-titulo">.Impacto</p>
+          <p>
+            Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.
+          </p>
         </div>
 
-        <div>
-          <p>+50</p>
-          <p>Mentores</p>
-        </div>
-
-        <div>
-          <p>301</p>
-          <p>Participantes</p>
+        <div class="columna">
+          <div class="numeros">
+            <div>
+              <p>58</p>
+              <p>Localidades</p>
+            </div>
+            
+            <div>
+              <p>+50</p>
+              <p>Mentores</p>
+            </div>
+            
+            <div>
+              <p>301</p>
+              <p>Participantes</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
