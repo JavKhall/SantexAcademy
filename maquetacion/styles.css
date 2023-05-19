@@ -16,10 +16,10 @@
   border: 2px solid;
   text-align: center;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .contenedor {
-  display: flex;
   height: 100%;
   width: 1200px;
   align-items: center;
@@ -39,6 +39,14 @@
 
 .columna {
   width: 50%;
+}
+
+.texto {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  letter-spacing: -0.2px;
+  margin: 20px 0px;
 }
 
 /** CONFIGURACION DEL HEADER */
@@ -80,6 +88,7 @@ a {
 }
 
 .contenedor-presentacion {
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -106,23 +115,24 @@ span {
 }
 
 /** CONFIGURACION DE IMPACTO */
+/** COLUMNA TEXTO */
 .impacto {
-  display: flex;
-  justify-content: center;
-  background-color: #211b25; 
-  color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-color: #211b25; 
+    color: #ffffff;
+    height: 400px;
 }
 
 .contenedor-impacto {
   display: flex;
   justify-content: center;
-  padding: 120px 30px 100px 30px;
-  width: 840px;
+  padding: 120px 30px 100px 0px;
+  width: 850px;
 }
 
 .columna-impacto {
   padding-right: 50px;
-  
 }
 
 .impacto-titulo {
@@ -130,5 +140,137 @@ span {
   font-size: 30px;
   font-weight: 600;
   line-height: 1.2;
+  margin-bottom: 12px;
   letter-spacing: -0.4;
+}
+
+.impacto-parrafo {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/** COLUMNA NUMEROS */
+.fila-numeros {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-numero {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  justify-content: center;
+}
+
+.caja-numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signo {
+  font-size: 30px;
+  color: #6b53ef;
+}
+
+.numero {
+  font-size: 50px;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.descripcion-numero {
+  font-size: 14px;
+  margin: auto;
+}
+
+/** CONFIGURACION DE PROGRAMAS */
+.programas {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.programas-titulo {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  margin: 25px auto;
+}
+
+.contenedor-programas{
+  display: flex;
+  flex-direction: column;
+}
+  
+.programa-fila {
+  display: flex;
+  align-items: center;
+  margin: 12px auto; 
+}
+
+.programa-imagen {
+  padding-right: 20px;
+  border-radius: 0px 60px 60px 60px;
+}
+
+.programa-texto {
+  margin: auto 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.programa-logo {
+  height: 43px
+}
+
+.segunda-fila {
+  flex-direction: row-reverse;
+}
+
+.imagen-segunda-fila {
+  border-radius: 60px 60px 0px 60px;
+}
+
+/** CONFIGURACION DE EQUIPOS */
+.equipo {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding-top: 60px;
+}
+
+.contenedor-equipo {
+  width: 1250px;
+}
+
+.contenedor-tarjeta {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.equipo-tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 310px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.tarjeta {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+
+.tarjeta-imagen {
+  height: 60%;
+  background-image: url("assets/equipo/twp-juan.png");
+  background-position: top;
+  background-size: cover;
 }
