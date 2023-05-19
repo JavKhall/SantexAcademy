@@ -260,17 +260,58 @@ span {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .tarjeta {
-  background-color: red;
+  background-color: white;
   width: 100%;
   height: 100%;
+  border-radius: 20px 20px 20px 0px;
+  overflow: hidden;
 }
 
 .tarjeta-imagen {
   height: 60%;
-  background-image: url("assets/equipo/twp-juan.png");
   background-position: top;
   background-size: cover;
+}
+
+.tarjeta-texto {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta-nombre {
+  font-size: 18px;
+  letter-spacing: -0.4;
+  font-weight: 600;
+}
+
+.tarjeta-cargo {
+  font-size: 14px;
+  color: ##9b9fa8;
+}
+
+.circulo{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 23px;
+  width: 23px;
+  border: solid 2px black;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.logo-tarjeta {
+  height: 12px;
+  width: 12px;
+  margin: auto;
 }
